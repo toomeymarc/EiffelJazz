@@ -1,0 +1,550 @@
+html, body{
+	width: 100%;
+	height:100%;
+	padding: 0;
+	margin: 0;
+	
+}
+
+.navigation{
+	padding: 0;
+	margin: 0;
+	background: #333;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+}
+
+.navigation li{
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+.navigation a{
+	color: #e1e1e1;
+	text-decoration: none;
+}
+
+.navigation a:hover{
+	color: #ffffff;
+}
+.navigation .active{
+	background-color: #4e4e4e;
+}
+
+h1{
+	font-family: 'Yesteryear', cursive;
+	font-size: 100px;
+	margin-top: 0px;
+	text-align: center;
+	color: white;
+}
+
+
+
+.text{
+	display: inline-block;
+	height: 50%;
+	margin-top: 17%; 
+	width: 100%;
+
+}
+
+.slide{
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding: 30 px;
+}
+
+#buttondown{
+	display: block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 25px;
+	left: 50%;
+	margin-left: -25px;
+	background-image: url(../img/boutton.png);
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+}
+
+#buttonup{
+	display: block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 25px;
+	left: 50%;
+	margin-left: -25px;
+	background-image: url(../img/bouttonup.png);
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+}
+
+
+#slide1{
+	background-image: url(../img/slide1/eiffel1.jpg);
+	 -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	overflow: hidden;
+}
+
+
+.slide-1-logo{
+	background-image: url(../img/eiffeljazzlogo.png);
+	width: 100%;
+	height: 100%;
+	background-position: center center;
+	background-repeat:no-repeat;
+}
+
+#slide2{
+	background-image: url(../img/slide2/eiffel2.jpg);
+	-webkit-background_size:cover;
+	-moz-background-size: cover;
+	-o-background-size:cover;
+	background-size: cover;
+	z-index: 9;
+	overflow: hidden;
+}
+
+
+#slide3{
+	background-image: url(../img/slide3/eiffel3.jpg);
+	-webkit-background_size:cover;
+	-moz-background-size: cover;
+	-o-background-size:cover;
+	background-size: cover;
+	z-index: 9;
+	overflow: hidden;
+}
+
+#colonne1{
+	
+	width: 300px;
+	height: 500px;
+	position: absolute;
+	bottom: 25%;
+	margin-left: -15.6%;
+	background-image: url(../img/colonne1new33.png);
+	background-repeat: no-repeat;
+
+}
+
+#colonne2{
+	position: absolute;
+	bottom: 12%;
+	width: 100%;
+	height: 100%;
+	background-position: center ;
+	background-image: url(../img/colonne2new33.png); 
+	background-repeat: no-repeat;
+}
+
+
+
+#colonne3{
+	
+	width: 300px;
+	height: 500px;
+	position: absolute;
+	bottom: 25%;
+	margin-left: 100%;
+	background-image: url(../img/colonne3new33.png);
+	background-repeat: no-repeat;
+}
+
+#slide4{
+	background-image: url(../img/slide4/eiffel4.jpg);
+	-webkit-background_size:cover;
+	-moz-background-size: cover;
+	-o-background-size:cover;
+	background-size: cover;
+	z-index: 9;
+	overflow: hidden;
+}
+
+#buttonyoutube{
+	display: block;
+	width: 213px;
+	height: 150px;
+	position: absolute;
+	bottom: 50%;
+	left: 115%;
+	background-image: url(../img/slide2/youtube.png);
+	background-size: 213px 150px;
+	background-repeat: no-repeat;
+}
+
+#buttonfacebook{
+	display: block;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	bottom: 50%;
+	left:-25%;
+	background-image: url(../img/slide2/facebook.png);
+	background-size: 150px 150px;
+	background-repeat: no-repeat;
+}
+
+@media only  screen and (max-width : 1366px) {
+
+	#colonne1{
+	width: 300px;
+	height: 500px;
+	position: absolute;
+	bottom: 10%;
+	margin-left: -20%;
+	background-image: url(../img/colonne1new33.png);
+	background-repeat: no-repeat;
+	}	
+
+	#colonne2{
+	position: absolute;
+	bottom: 15%;
+	width: 100%;
+	height: 100%;
+	background-position: center bottom;
+	background-image: url(../img/colonne2new33.png); 
+	background-repeat: no-repeat;
+
+	}
+
+
+	#colonne3{
+	width: 300px;
+	height: 500px;
+	position: absolute;
+	bottom: 10%;
+	margin-left: 98%;
+	background-image: url(../img/colonne3new33.png);
+	background-repeat: no-repeat;
+	}
+}
+
+@media screen and (max-width : 1024px) {
+	#buttonyoutube{
+	display: block;
+	width: 142px;
+	height: 100px;
+	position: absolute;
+	bottom: 50%;
+	background-image: url(../img/slide2/smallyoutube.png);
+	background-size: 142px 100px;
+	background-repeat: no-repeat;
+	}
+
+	#buttonfacebook{
+	display: block;
+	width: 100px;
+	height: 100px;
+	left: -28%;
+	position: absolute;
+	bottom: 50%;
+	background-image: url(../img/slide2/smallfacebook.png);
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	}
+
+
+
+
+	#colonne1{
+
+	width: 300px;
+	height: 500px;
+	position: absolute;
+	bottom: 10%;
+	margin-left: -27%;
+	background-image: url(../img/colonne1new33.png);
+	background-repeat: no-repeat;
+
+	}	
+
+	#colonne2{
+	position: absolute;
+	top: 2%;
+	width: 100%;
+	height: 100%;
+	background-position: center ;
+	background-image: url(../img/colonne2new33.png); 
+	background-repeat: no-repeat;
+
+	}
+
+
+	#colonne3{
+	
+	width: 300px;
+	height: 500px;
+	position: absolute;
+	bottom: 10%;
+	margin-left: 98%;
+	background-image: url(../img/colonne3new33.png);
+	background-repeat: no-repeat;
+	}
+}
+
+
+@media only screen and (max-width : 768px) {
+
+	#buttonyoutube{
+	display: block;
+	width: 142px;
+	height: 100px;
+	position: absolute;
+	bottom: 50%;
+	background-image: url(../img/slide2/smallyoutube.png);
+	background-size: 142px 100px;
+	background-repeat: no-repeat;
+	}
+
+	#buttonfacebook{
+	display: block;
+	width: 100px;
+	height: 100px;
+	left: -28%;
+	position: absolute;
+	bottom: 50%;
+	background-image: url(../img/slide2/smallfacebook.png);
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	}
+
+
+
+	#colonne1{
+
+		width: 300px;
+		height: 500px;
+		position: absolute;
+		bottom: 0.5%;
+		margin-left: -30%;
+		background-image: url(../img/colonne1new33.png);
+		background-repeat: no-repeat;
+
+	}
+
+	#colonne2{
+		position: absolute;
+		top: 2%;
+		width: 100%;
+		height: 100%;
+		background-position: center top ;
+		background-image: url(../img/colonne2new33.png); 
+		background-repeat: no-repeat;
+	}
+
+
+	#colonne3{
+		width: 300px;
+		height: 500px;
+		position: absolute;
+		bottom: 0.5%;
+		margin-left: 91%;
+		background-image: url(../img/colonne3new33.png);
+		background-repeat: no-repeat;
+	}
+
+}
+
+
+@media only screen and (max-width : 480px) {
+
+	h1 {
+    font-size: 50px;
+    margin-top: 0%; 
+	text-align: center;
+  	} 
+
+
+
+  	#buttondown{
+	display: block;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	bottom: 20px;
+	left: 52.5%;
+	margin-left: -25px;
+	background-image: url(../img/boutton.png);
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	}
+
+	#buttonup{
+	display: block;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	bottom: 20px;
+	left: 52.5%;
+	margin-left: -25px;
+	background-image: url(../img/bouttonup.png);
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	}
+
+	#buttonyoutube{
+	display: block;
+	width: 99px;
+	height: 70px;
+	position: absolute;
+	bottom: 50%;
+	background-image: url(../img/slide2/verysmallyoutube.png);
+	background-size: 99px 70px;
+	background-repeat: no-repeat;
+	}
+
+	#buttonfacebook{
+	display: block;
+	width: 70px;
+	height: 70px;
+	left: -28%;
+	position: absolute;
+	bottom: 50%;
+	background-image: url(../img/slide2/verysmallfacebook.png);
+	background-size: 70px 70px;
+	background-repeat: no-repeat;
+	}
+
+
+
+	#colonne1{
+
+		width: 150px;
+		height: 250px;
+		position: absolute;
+		bottom: 0.5%;
+		margin-left: -28.5%;
+		background-image: url(../img/smallcolonne1new33.png);
+		background-repeat: no-repeat;
+
+	}
+
+	#colonne2{
+		position: absolute;
+		top: 5%;
+		width: 100%;
+		height: 100%;
+		background-position: center top ;
+		background-image: url(../img/smallcolonne2new33.png); 
+		background-repeat: no-repeat;
+	}
+
+
+	#colonne3{
+		width: 150px;
+		height: 250px;
+		position: absolute;
+		bottom: 0.5%;
+		margin-left: 97%;
+		background-image: url(../img/smallcolonne3new33.png);
+		background-repeat: no-repeat;
+	}
+
+}
+
+
+
+@media only screen and (max-width : 320px) {
+
+	h1 {
+    font-size: 70px;
+    margin-top: 0%; 
+	text-align: center;
+  	} 
+
+
+
+
+	#buttonyoutube{
+	display: block;
+	width: 99px;
+	height: 70px;
+	margin-left: -5%;
+	position: absolute;
+	bottom: 50%;
+	background-image: url(../img/slide2/verysmallyoutube.png);
+	background-size: 99px 70px;
+	background-repeat: no-repeat;
+	}
+
+	#buttonfacebook{
+	display: block;
+	width: 70px;
+	height: 70px;
+	margin-left: -10%;
+	position: absolute;
+	bottom: 50%;
+	background-image: url(../img/slide2/verysmallfacebook.png);
+	background-size: 70px 70px;
+	background-repeat: no-repeat;
+	}
+
+
+
+	#colonne1{
+
+		width: 150px;
+		height: 250px;
+		position: absolute;
+		bottom: 0.5%;
+		margin-left: -31%;
+		background-image: url(../img/smallcolonne1new33.png);
+		background-repeat: no-repeat;
+
+	}
+
+	#colonne2{
+		position: absolute;
+		top: 1%;
+		width: 100%;
+		height: 100%;
+		background-position: center top ;
+		background-image: url(../img/smallcolonne2new33.png); 
+		background-repeat: no-repeat;
+	}
+
+
+	#colonne3{
+		width: 150px;
+		height: 250px;
+		position: absolute;
+		bottom: 0.5%;
+		margin-left: 82%;
+		background-image: url(../img/smallcolonne3new33.png);
+		background-repeat: no-repeat;
+	}
+
+}
+
+@media only screen and (max-width : 640px) {
+	.slide-1-logo{
+	background-image: url(../img/eiffeljazzsmalllogo.png);
+	
+	background-position: center center;
+	background-repeat:no-repeat;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+ 	.slide-1-logo{
+	background-image: url(../img/eiffeljazzverysmalllogo.png);
+	background-position: center center;
+	background-repeat:no-repeat;
+	}
+
+
+
+
+
+
+
