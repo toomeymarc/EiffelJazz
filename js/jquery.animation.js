@@ -7,8 +7,8 @@ $(document).ready(function(){
 		
 		if (posScroll >= 0.4){
 			if(anim1){
-				$("#slide3 #colonne1").stop().animate({ "left": "+=30%","opacity":"1"},{ "duration": 500, "easing": "linear" });
-				$("#slide3 #colonne3").stop().animate({ "left": "-=30%","opacity":"1"},{ "duration": 500, "easing": "linear" });
+				$("#slide3 #colonne1").stop().animate({ "left": "+=40%","opacity":"1"},{ "duration": 500, "easing": "linear" });
+				$("#slide3 #colonne3").stop().animate({ "right": "+=40%","opacity":"1"},{ "duration": 500, "easing": "linear" });
 				anim1=false;
 			}
 			
