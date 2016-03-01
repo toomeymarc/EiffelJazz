@@ -18,7 +18,7 @@ $(document).ready(function(){
 		if (posScroll >= 0.55){
 			if(anim2){
 				$("#slide4 #buttonfacebook").stop().animate({ "left": "+=50%","opacity":"1"},{ "duration": 700, "easing": "linear" });
-				$("#slide4 #buttonyoutube").stop().animate({ "left": "-=50%","opacity":"1"},{ "duration": 700, "easing": "linear" });
+				$("#slide4 #buttonyoutube").stop().animate({ "right": "+=45%","opacity":"1"},{ "duration": 700, "easing": "linear" });
 				anim2=false;
 			}
 			

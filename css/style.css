@@ -138,18 +138,6 @@ h1{
   text-align: center;
 }
 
-/* .colonne{
-	margin-right: 105px;
-}
-
-.colonne:last-child{
-	margin-right: 0px;
-} */
-
-/* #colonne1, #colonne3 {
-  top: 30px;
-} */
-
 #colonne1{
   position: absolute;
   left: -30%;
@@ -176,7 +164,7 @@ h1{
 	height: 150px;
 	position: absolute;
 	bottom: 50%;
-	left: 115%;
+	right: -25%;
 	background-image: url(../img/slide2/youtube.png);
 	background-size: 213px 150px;
 	background-repeat: no-repeat;
